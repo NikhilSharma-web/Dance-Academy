@@ -75,7 +75,7 @@
 
 #mission-section {
     height: 400px;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -89,7 +89,7 @@
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
-    width: 26%;
+    width: 25%;
     margin: 29px 31px;
     height: 210px;
 }
@@ -116,7 +116,6 @@
 
 .card-img img {
     height: inherit;
-    /* padding: 0 14px; */
 }
 
 .card-content {
@@ -124,7 +123,7 @@
 }
 
 .card-content p {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 #sponsor-section {
@@ -165,12 +164,13 @@
     font-family: "Oleo Script", system-ui;
     width: 100%;
 }
+
 @media (max-width: 768px) {
     #navbar ul {
         flex-direction: column;
         text-align: center;
     }
-    
+
     #navbar li {
         width: 100%;
     }
@@ -179,19 +179,24 @@
         width: 100%;
         padding: 10px;
     }
-    .card {
-        width: 90%;
-    }
+
     .spImage {
         height: 40px;
     }
+
     #footer {
         font-size: 16px;
         height: 60px;
     }
-}
-@media (max-width: 1024px) {
+
     .card {
-        width: 45%;
+        overflow: hidden;
+        width: 25%;
+        margin: 21px 27px
     }
-} 
+
+    .card-img img {
+        height: inherit;
+        margin: -18px;
+    }
+}
