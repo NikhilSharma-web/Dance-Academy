@@ -16,15 +16,12 @@ p {
 }
 .lists{
     font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     list-style: decimal;
+    margin: 40px;
 }
 .lists > ul > li {
     padding: 10px;
-} */
+} 
 
 h2 {
     padding: 20px 50px
