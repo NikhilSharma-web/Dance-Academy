@@ -1,0 +1,67 @@
+extends base.pug
+
+block scripts   
+    script(src = '/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+        include ../static/classInfo.css
+block content 
+    div.class-info
+        h2 Class Information
+        p Explore our variety of dance classes designed for all skill levels.
+
+        h3 Class Types
+        ul
+            li Hip-Hop
+            li Ballet
+            li Contemporary
+            li Salsa
+            li Jazz
+            li Bollywood
+            li Freestyle
+
+        h3 Class Levels
+        ul
+            li Beginner
+            li Intermediate
+            li Advanced
+            li Kids' Special
+            li Adults Only
+
+        h3 Schedule & Timings
+        p Check our weekly timetable for class availability.
+        ul
+            li Duration: 1 Hour per Session
+            li Private & Group Classes Available
+
+        h3 Instructor Details
+        ul
+            li Instructor: John Doe
+            li Experience: 10+ Years
+            li Specialization: Hip-Hop & Contemporary
+
+        h3 Fees & Packages
+        ul
+            li Monthly: $50
+            li Quarterly: $140
+            li Yearly: $500
+            li Trial Class Available
+
+        h3 Age Group & Eligibility
+        ul
+            li Minimum Age: 5 Years
+            li No Prior Experience Required
+
+        h3 What to Bring?
+        ul
+            li Comfortable Dance Attire
+            li Dance Shoes (Optional)
+            li Water Bottle & Towel
+
+        h3 Class Benefits
+        ul
+            li Improve Fitness & Flexibility
+            li Boost Confidence
+            li Performance Opportunities

@@ -1,0 +1,39 @@
+.class-info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.class-info h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.class-info h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.class-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.class-info ul li {
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.class-info p {
+    font-size: 1.1rem;
+    color: #555;
+}

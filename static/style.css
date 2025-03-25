@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tektur", sans-serif;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+#logo img {
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: rgb(124, 124, 124);
+    padding: 20px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li {
+    list-style: none;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 32px;
+    font-size: 26px;
+}
+
+#navbar li a:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#intro-section {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 300px;
+    font-size: 32px;
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+
+#intro-section div.small {
+    font-size: 25px;
+    font-family: "Oleo Script", system-ui;
+    padding: 8px;
+}
+
+#mission-section {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+
+#mission-section h2 {
+    text-align: center;
+    padding: 23px;
+    font-size: 36px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 26%;
+    margin: 29px 31px;
+    height: 210px;
+}
+
+.card h3 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-family: "Oleo Script", system-ui;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-img {
+    height: 80px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img {
+    height: inherit;
+    /* padding: 0 14px; */
+}
+
+.card-content {
+    padding: 0 10px;
+}
+
+.card-content p {
+    font-size: 18px;
+}
+
+#sponsor-section {
+    height: 400px;
+    background-color: rgba(255, 212, 209, 0.806);
+}
+
+#sponsor-section h2 {
+    text-align: center;
+    padding: 23px;
+    font-size: 36px;
+}
+
+#sponsors {
+    height: 180px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.spImage {
+    height: 66%;
+    margin: 12px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 1px auto;
+    padding-left: 46px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: "Oleo Script", system-ui;
+    width: 100%;
+}

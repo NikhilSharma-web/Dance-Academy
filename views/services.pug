@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts   
+    script(src = '/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+        include ../static/services.css
+block content 
+    h1 Our Services
+    p Explore the variety of dance programs we offer!
+    div.card-container
+        div.card
+            h2 Dance Classes
+            ul
+                li Beginner Dance Lessons
+                li Intermediate & Advanced Training
+                li Kids Dance Classes
+                li Adult Dance Classes
+                li Private One-on-One Training
+                
+        div.card
+            h2 Workshops & Special Events
+            ul
+            li Weekend Dance Bootcamps
+                li Choreography for Weddings & Events
+                li Fitness Dance (Zumba, Bollywood, Aerobics)
+                li Annual Dance Showcase
+                
+        div.card
+            h2 Performance & Competition Training
+            ul
+                li Professional Dance Competitions
+                li Stage Performance Training
+                li Theater & Musical Dance
+                
+        div.card
+            h2 Studio Rental
+            ul
+                li Studio Space for Practice & Rehearsals
+                li Event Space for Shows & Workshops
+                li Photography & Video Shoots
+                
+        div.card
+            h2 Online Dance Courses
+            ul
+                li Live Virtual Classes
+                li Recorded Dance Lessons
+                li Membership Plans for Exclusive Content
+                        
+        div.call-to-action
+            p Ready to start your dance journey?
+            a(href="/contact" class="cta-button") Book a Trial Class

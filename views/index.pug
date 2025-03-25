@@ -1,0 +1,57 @@
+//- index.pug
+doctype html
+html
+    head
+        title Nikhil Dance Academy
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src = "/static/img/logo.png")
+                    | NDA
+                li #[a(href = "/") Home]  
+                li #[a(href = "/") About] 
+                li #[a(href = "/") Services]
+                li #[a(href = "/") Class Info]
+                li #[a(href = "/") Contact Us]
+        
+        section#intro-section
+            div Welcome to Nikhil's Dance Academy
+            div.small Live Learn Dance Repeat 
+            
+        section#mission-section 
+            h2 Our Mission
+            div.card 
+                h3 Dance Perfection.
+                div.card-box 
+                    div.card-img
+                        img(src = "/static/img/img1.png")
+                    div.card-content
+                        p This is the Best DAnce Academy Ever For Beginners
+            div.card 
+                h3 Dance the way you like.
+                div.card-box 
+                    div.card-img
+                        img(src = "/static/img/img2.png")
+                    div.card-content
+                        p This is the Best DAnce Academy Ever For Beginners
+            div.card 
+                h3 Expert Teaching
+                div.card-box 
+                    div.card-img
+                        img(src = "/static/img/img3.png")
+                    div.card-content
+                        p This is the Best DAnce Academy Ever For Beginners
+        section#sponsor-section
+            h2 Our Sponsors
+            div#sponsors
+                img(src = "/static/img/logo1.png" alt = "Sponsor Image", Class = "spImage") 
+                img(src = "/static/img/logo2.png" alt = "Sponsor Image", Class = "spImage") 
+                img(src = "/static/img/logo3.png" alt = "Sponsor Image", Class = "spImage") 
+                img(src = "/static/img/logo4.png" alt = "Sponsor Image", Class = "spImage") 
+        footer#footer 
+            | Copyright ©️ 2025 NikhilDanceAcademy.com All rights | reserved
+        script
+            include ../static/index.js

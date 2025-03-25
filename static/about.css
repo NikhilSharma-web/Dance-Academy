@@ -1,0 +1,38 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap'); */
+
+h1 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 30px;
+    font-size: 20px;
+}
+.lists{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: decimal;
+}
+.lists > ul > li {
+    padding: 10px;
+} */
+
+h2 {
+    padding: 20px 50px
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+} 
