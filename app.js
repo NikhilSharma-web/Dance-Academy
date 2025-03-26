@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 const app = express();
-const port = 8000;
+const PORT = process.env.PORT || 8000;
 
 app.use('/static', express.static('static'))
 app.use(express.urlencoded())
@@ -59,6 +59,6 @@ app.post('/contact', (req, res) => {
     res.status(200).render('index.pug', params);
 });
 
-app.listen(port, ()=>{
-    console.log(`Server is running on port ${port}`)
+app.listen(PORT, ()=>{
+    console.log(`Server is running on port ${PORT}`)
 })
