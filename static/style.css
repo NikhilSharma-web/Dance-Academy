@@ -61,10 +61,11 @@
     justify-content: center;
     align-items: center;
     background: center/cover no-repeat url("/static/bg.jpg");
+    opacity: 1.9;
     height: 300px;
     font-size: 32px;
     padding-bottom: 40px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 #intro-section div.small {
@@ -151,6 +152,7 @@
     align-items: center;
     padding: 1px auto;
     padding-left: 46px;
+    border-radius: 30px;
 }
 
 #footer {
