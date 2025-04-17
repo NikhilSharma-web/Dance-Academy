@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const bodyParser = require("body-parser");
 main().catch(err => console.log(err));
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/ContactDance');
+    await mongoose.connect(process.env.MONGO_URI);
 }
 const PORT = process.env.PORT || 8000;
 
