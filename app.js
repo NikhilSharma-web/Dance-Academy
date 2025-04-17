@@ -1,10 +1,10 @@
+require('dotenv').config()
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require("body-parser");
-require('dotenv').config()
 main().catch(err => console.log(err));
 async function main() {
     await mongoose.connect(process.env.MONGO_URI);
