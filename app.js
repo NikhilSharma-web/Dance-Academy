@@ -4,6 +4,7 @@ const fs = require("fs");
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require("body-parser");
+require('dotenv').config()
 main().catch(err => console.log(err));
 async function main() {
     await mongoose.connect(process.env.MONGO_URI);
@@ -61,7 +62,9 @@ app.post('/contact', (req, res) => {
     })   
 })
 
-
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`)
+})
 
 //This one is for saving the data into a file or a text file
 
@@ -90,6 +93,3 @@ app.post('/contact', (req, res) => {
 //     res.status(200).render('index.pug', params);
 // });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`)
-})
